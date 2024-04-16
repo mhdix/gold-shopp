@@ -1,0 +1,8 @@
+@font-face {
+    font-family: yekan;
+    src: url(/assets/fonts/Yekan.woff);
+}
+
+html , p , button ,input{
+    font-family: yekan;
+}
