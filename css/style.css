@@ -39,3 +39,15 @@ h1 {
 h2 {
     font-size: 1.8rem;
 }
+
+/* Modifire */
+.block {
+    padding: 3rem 5rem;
+}
+.block-y {
+    padding: 3rem 0;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
