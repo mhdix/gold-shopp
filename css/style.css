@@ -1,0 +1,41 @@
+/* Reset style */
+* , *::before , *::after {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Root variable */
+:root {
+    --color-primary-100: #FFC42E;
+    --color-primary-200:#FFC42E;
+    --color-primary-300: #F7BD4D;
+
+    --color-text-100: #AFAFAF;
+    --color-text-200:#737373;
+    --color-text-300 : #37290D;
+    
+    --border-radius-100: 8px;
+    --border-radius-200: 10px;
+    --border-radius-200: 20px;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.4rem;
+    line-height: 1.8;
+}
+p {
+    margin: 0;
+}
+
+h1,h2,h3 {
+    color: var(--color-text-300);
+    line-height: 1.7;
+}
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.8rem;
+}
