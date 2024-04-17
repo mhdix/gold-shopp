@@ -65,11 +65,10 @@ h2 {
 
 /* btn */
 .btn {
-    padding: 0.5rem  1rem;
+    padding: 0.2rem  1rem;
     border-radius: var(--border-radius-100);
     background-color: transparent;
     align-items: center;
-    margin: 0;
 }
 .btn--primary{
     border: 2px solid var(--color-primary-100);
