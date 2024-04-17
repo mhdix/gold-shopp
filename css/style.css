@@ -6,6 +6,8 @@
 }
 /* Root variable */
 :root {
+    --color-white-100:#fff;
+    --color-white-200:#F8F8F8;
     --color-primary-100: #FFC42E;
     --color-primary-200:#FFC42E;
     --color-primary-300: #F7BD4D;
@@ -24,6 +26,7 @@ html {
 body {
     font-size: 1.4rem;
     line-height: 1.8;
+    background-color: var(--color-white-200);
 }
 p {
     margin: 0;
@@ -50,4 +53,33 @@ h2 {
 .container {
     width: 1140px;
     margin: 0 auto;
+}
+.color--mute{
+    color: var(--color-text-100);
+}
+
+/* Defualts */
+.title {
+    color: var(--color-primary-100);
+}
+
+/* btn */
+.btn {
+    padding: 0.5rem  1rem;
+    border-radius: var(--border-radius-100);
+    background-color: transparent;
+    align-items: center;
+    margin: 0;
+}
+.btn--primary{
+    border: 2px solid var(--color-primary-100);
+    background-color: var(--color-primary-100);
+    color: var(--color-white-100);
+    
+}
+.btn--outline {
+    border: 2px solid var(--color-primary-100);
+    color: var(--color-primary-100);
+    background-color: var(--color-white-100);
+    
 }
