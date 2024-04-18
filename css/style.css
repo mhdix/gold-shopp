@@ -115,6 +115,7 @@ h2 {
     position: relative;
 }
 .header-desc {
+    background-color: var(--color-white-100);
     display: none;
 }
 .header__menu {
@@ -173,7 +174,6 @@ h2 {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: var(--color-white-100);
         padding: 1.5rem 2.5rem;
     }
     .top__search-bar {
@@ -196,7 +196,6 @@ h2 {
         justify-content: space-between;
         align-items: center;
         padding: 1.5rem 2.5rem; 
-        background-color: var(--color-white-100);
     }
     .bottom__links ul{
         display: flex;
@@ -249,20 +248,18 @@ h2 {
         background-color: #F7F7F7;
         outline: 1px solid var(--color-text-100);
         display: flex;
-        width: 35rem;
+        width: 40rem;
         border-radius: var(--border-radius-100);
-        padding: 0.3rem 1.2rem;
+        padding: 0.7rem 1.2rem;
     }
-}
-
-.input-type {
-    font-size: 1rem;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%) translateX(4%);
-    height: 85%;
-    display: flex;
-    align-items: center;
-    border-radius: 5px;
+    .search-bar__btn {
+        position: absolute;
+        left: 0;    
+        top: 50%;
+        transform: translateY(-50%) translateX(4%);
+        height: 85%;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+    }
 }
