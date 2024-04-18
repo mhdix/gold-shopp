@@ -211,7 +211,14 @@ h2 {
     }
     .bottom__info{
         display: flex;
-        gap: 1rem;
+        gap: 2rem;
+        cursor: pointer;
+    }
+    .bottom__info span {
+        transition: 0.3s;
+    } 
+    .bottom__info span:hover {
+        color: var(--color-primary-300);
     }
     .bottom__info span {
         display: flex;
@@ -228,6 +235,10 @@ h2 {
         display: flex;
         align-items: center;
         gap: 0.6rem;
+        transition: 0.3s;
+    }
+    .bottom__links ul li a:hover{
+        color: var(--color-primary-300);
     }
     .bottom__links ul li a span{
         display: flex;
