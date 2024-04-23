@@ -98,12 +98,12 @@ h2 {
 .bg-content {
     background-color: var(--color-primary-100);
     position: absolute;
-    height: 50%;
-    width: 98%;
+    height: 72%;
+    width: 81%;
     left: 0;
     border-radius: 0 5rem 5rem 0;
     z-index: -1;
-    top: 50%;
+    top: 26%;
 }
 .border-radius-100 {
     border-radius: var(--border-radius-100);
@@ -523,7 +523,7 @@ h2 {
 }
 @media screen and (min-width: 768px) {
     .our-choice {
-        padding: 5rem;
+        padding:0;
         display: flex;
         align-items: center;
     }
@@ -573,7 +573,7 @@ h2 {
 }
 
 /* Blog */
-.block {
+.blog {
     display: flex;  
     flex-direction: column;
     align-items: center;
