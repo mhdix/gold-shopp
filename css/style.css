@@ -56,6 +56,30 @@ h2 {
     font-size: 1.8rem;
 }
 
+@media screen and (min-width:768px) {
+    p {
+        font-size: 1.6rem;
+    }
+    h1 {
+        font-size: 2.2rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+
+    p {
+        font-size: 1.8rem;
+    }
+    h1 {
+        font-size: 2.4rem;
+    }
+    h2 {
+        font-size: 2.2rem;
+    }
+}
+
 /* Modifire */
 .block {
     padding: 3rem 5rem;
@@ -100,7 +124,7 @@ h2 {
     position: absolute;
     height: 72%;
     width: 81%;
-    left: 0;
+    left: 47px;
     border-radius: 0 5rem 5rem 0;
     z-index: -1;
     top: 26%;
@@ -348,6 +372,9 @@ h2 {
     display: flex;
     justify-content: center;
 }
+.know__caption {
+    align-items: center;
+}
 .know__img img{
     width: 70%;
     z-index: 2;
@@ -356,8 +383,21 @@ h2 {
 
 @media screen and (min-width: 768px) {
     .know {
-        grid-template-columns: repeat(2 , 1fr);
+        grid-template-columns:auto;
         align-items: center;
+    }
+    .know__caption {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .know {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .know__caption {
+        display: flex;
+        align-items: flex-start;
     }
 }
 
@@ -529,6 +569,7 @@ h2 {
     }
     .our-choice__parent{
         display: flex;
+        padding: 4rem 5rem;
     }
     .our-choice__intro {
         display: none;
