@@ -687,6 +687,14 @@ h2 {
 }
 
 /* shopp */
+.shopp {
+    max-width: 40rem;
+}
+.box__product {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
 .product__item {
     background-color: var(--color-white-100);
     padding: 2rem 1.5rem;
@@ -704,4 +712,20 @@ h2 {
     display: flex;
     justify-content: space-between;
     margin-top: 1rem;
+}
+@media screen and (min-width: 768px) {
+    .shopp {
+        max-width: 100%;
+    }
+    .box__product {
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+    }
+}
+@media screen and (min-width: 1024px) {
+    
+    .box__product {
+        display: flex;
+        flex-direction: row;
+    }
 }
