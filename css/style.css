@@ -685,3 +685,23 @@ h2 {
         height: 15rem;
     }
 }
+
+/* shopp */
+.product__item {
+    background-color: var(--color-white-100);
+    padding: 2rem 1.5rem;
+    border-radius: var(--border-radius-300);
+}
+.product__image{
+    display: flex;
+    justify-content: center;
+}
+.product__image img {
+    width: 70%;
+}
+
+.product__buy {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
