@@ -3,6 +3,6 @@
     src: url(/assets/fonts/Yekan.woff);
 }
 
-html , p , button ,input{
+html , p , button ,input , select{
     font-family: yekan;
 }
