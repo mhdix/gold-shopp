@@ -765,8 +765,11 @@ h2 {
     margin-top: 1rem;
     color: var(--color-text-200);
 }
+.search__input .input-parent {
+    margin: 0;
+}
 .search__input .input ,.filter__categories .input , .filter__brand .input{
-width: 100%;
+    width: 100%;
 }
 .filter__btn .btn , .search__btn .btn {
     height: 5rem;
