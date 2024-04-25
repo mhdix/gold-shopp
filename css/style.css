@@ -731,15 +731,19 @@ h2 {
     }
 }
 @media screen and (min-width: 1024px) {
-    
+    .shopp__search {
+        position: sticky;
+        top: 20px;
+        width: 35%;
+    } 
     .box__product {
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
     }
 }
 
 /* shopp */
-.box__search .input {
+.shopp__search .input {
     border-radius: var(--border-radius-100);
     background-color: var(--color-white-100);
 }
@@ -753,6 +757,7 @@ h2 {
 }
 .price__box h2 {
     margin: 0;
+    font-weight: 400;
 }
 .box__price-number {
     display: flex;
@@ -760,7 +765,49 @@ h2 {
     margin-top: 1rem;
     color: var(--color-text-200);
 }
+.search__input .input ,.filter__categories .input , .filter__brand .input{
+width: 100%;
+}
 .filter__btn .btn , .search__btn .btn {
     height: 5rem;
     margin-top: 1.5rem;
+}
+
+/* -box header */
+.box__header {
+    background-color: var(--color-white-100);
+    /* height: 1rem; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: var(--border-radius-100);
+}
+.box__header .select-option {
+    /* width: 30%; */
+    font-size: 1.2rem;
+}
+.shopp-header__select {
+    border: 1px solid var(--color-white-200);
+    padding: 0.5rem;
+    background-color: var(--color-text-50);
+}
+
+@media screen and (min-width: 768px) {
+    .box__header .select-option {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .shopp {
+        display: flex;
+        gap: 5rem;
+    }
+    .shopp__search {
+        position: sticky;
+    }
+    .box__header {
+        display: flex; 
+        gap: 3rem;
+    }
 }
